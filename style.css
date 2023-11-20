@@ -1,0 +1,32 @@
+:root {
+    --font_top:'Rubik', sans-serif;
+    --main_color: 
+}
+
+
+.barra_superior {
+    font-family: var(--font_top);
+    display: flex;
+    justify-content: space-around; 
+    padding: 35px;
+    background: #3d7b80;
+    font-size: 20px;
+}
+div .cv {
+    border-radius: 25%;
+    padding: 40px;
+    background: #270a33;
+    border-style: none;
+    font-family: var(--font_top);
+    color: #77b1a9;
+}
+div .text_top {
+    color: #270a33;
+}
+/* INICIO TEXTO MAIN PRESENTACION */
+.text_intro {
+    font-family: var(--font_top);
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 2fr;
+}
